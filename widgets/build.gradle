@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'widgets'
+
+    publishedGroupId = 'si.puntar.widgets'
+    libraryName = 'Widgets'
+    artifact = 'widgets'
+
+    libraryDescription = 'Simple Custom Android Views'
+
+    siteUrl = 'https://github.com/janezpuntar/CustomWidgets'
+    gitUrl = 'https://github.com/janezpuntar/CustomWidgets.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'janez'
+    developerName = 'Janez Puntar'
+    developerEmail = 'janez.puntar@gmail.com'
+
+    licenseName = 'GNU General Public License, version 3 (GPL-3.0)'
+    licenseUrl = 'https://opensource.org/licenses/gpl-3.0.html'
+    allLicenses = ["GPL-3.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -23,3 +47,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
