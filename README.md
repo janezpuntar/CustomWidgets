@@ -8,7 +8,7 @@ Library is added to jCenter. If you are not using jCenter add repository below.
 ```
 maven { url "http://dl.bintray.com/janez/maven" }
 ```
-and
+and dependency
 ```
 compile 'si.puntar.widgets:widgets:1.0'
 ```
