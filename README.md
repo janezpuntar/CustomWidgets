@@ -3,7 +3,7 @@
 
 **Simple Custom Android Views**
 
-You have to add in your project:
+Library is added to jCenter. If you are not using jCenter add repository below.
 
 ```
 maven { url "http://dl.bintray.com/janez/maven" }
