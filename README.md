@@ -14,7 +14,7 @@ compile 'si.puntar.widgets:widgets:1.0'
 ```
 
 
-For now most important thing is to setup **layout_marginTop** to first child in SlideView. In out sample we have 60dp of **slide_view** visible on screen. It is used to handle whole pannel.
+For now most important thing is to setup **layout_marginTop** for first child in SlideView. In our sample we have 60dp of **slide_view** visible on screen. It is used to handle whole pannel.
 
 It's recommended to use only one child view of **si.puntar.widgets.SlideView**. 
 ```
